@@ -8,7 +8,7 @@ library(matrixStats)
 library(ivreg)
 library(DoubleML)
 rm(list=ls())
-df2 <- read_dta("C:/Users/jbash/OneDrive - Carleton University/Classes/ECON5880/Project/Datasets/25-03-2022 for 1997 & 2015/25-03-2022-data-2015-1997/19972015dataset.dta") 
+#df2 <- read_dta("") # directory. 
 df <- df2
 
 iv1 <- ivreg(fertility2015 ~ as.factor(percentPeersGang1997) +  as.factor(percentPeersDrugs1997) + as.factor(hardTimes1997)+
