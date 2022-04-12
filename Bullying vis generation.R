@@ -5,7 +5,7 @@ library(tidyverse)
 library(sjlabelled)
 
 
-df <- read_dta("C:/Users/jbash/OneDrive - Carleton University/Classes/ECON5880/Project/Datasets/23-03-2022 for 1997 & 2015/Stata generation/19972015dataset.dta") 
+#df <- read_dta("") directory
 
 df$age1997 <- as.factor(df$age1997)
 
